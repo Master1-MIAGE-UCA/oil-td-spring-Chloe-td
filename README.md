@@ -83,6 +83,10 @@ GET http://localhost:8081/api/dice/rollDice
 
 # Lancer plusieurs dés :
 
+GET http://localhost:8081/api/dice/rollDices/{X}
+remplacer {X} par un chiffre : 
+
+Exemple : 
 GET http://localhost:8081/api/dice/rollDices/3
 
 # Voir l'historique des lancés :
